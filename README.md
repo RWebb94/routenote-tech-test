@@ -5,10 +5,15 @@ Both PHP and VueJS dependencies are required for the project to run. Both of the
 yarn install
 composer install
 ```
+
 ## Executing the project
 To execute the project on my local machine I ran the `yarn serve` command from the project directory
 
 I then had a second command window where I ran `php -t ./ -S 0.0.0.0:8000` from the public directory
+
+## Spotify Client ID and Secret
+The Spotify Client ID and Secret values can be viewed and changed in the controllers/spotifydetails.php file.
+
 ## Resources Used
 I used the following resources:
 - NPM
@@ -19,6 +24,7 @@ I used the following resources:
 - Flight ([Found here](http://flightphp.com/))
 - spotify-web-api-php ([Found here](https://github.com/jwilsson/spotify-web-api-php) )
 - vue-select ([Found here](https://vue-select.org/))
+
 ## Future Improvements
 The Frontend still requires further styling, due to how much time I could put into the project. The vue-select styling can be improved and the artist details could be presented in a cleaner way. With more time something the top tracks slider could be more eye-catching.
 
